@@ -1,0 +1,135 @@
+:root{
+    --redStandard: #E50914;
+    --blackStandard: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--blackStandard);
+    font-family: 'Arial';
+    color: white;
+}
+
+/* header */
+header {
+    padding: 20px;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header .logo{
+    color: var(--redStandard);
+    font-family: 'Arial Black', Times;
+    font-size: 30px;
+}
+
+header nav {
+    margin-left: 40px;
+    font-size: 16px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+header aside .container{
+    margin-left: 350px;
+    
+}
+
+header aside .container div{
+    font-size: 16px;
+    margin-left: 30px;
+
+    cursor: pointer;
+}
+
+header aside .container div i{
+    font-size: 25px;
+}
+
+/* Main Movie */
+.main-movie{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../img/capa-house.jpg');
+    
+    height: 500px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main-movie .description{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.main-movie .title{
+    margin-top: 15%;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn {
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgba(82, 87, 85, 0.9);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    border-radius: 10px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+    
+
+#btn-play {
+    background-color: #fff;
+    color: var(--blackStandard);
+    
+}
+
+#btn-info:hover {
+    background-color: rgba(82,87,85, 0.6);
+}
+
+#btn-play:hover {
+    background-color: rgba(153, 153, 153, 0.9);
+}
+
+.btn i {
+    margin-right: 8px;
+}
+
+.container {
+    margin-left: 30px;
+}
+
+
+
+.box-filme {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
