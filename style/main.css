@@ -68,7 +68,7 @@ header aside .container div i{
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../img/capa-house.jpg');
     
-    height: 500px;
+    height: 40rem;
     background-size: cover;
 
     display: flex;
